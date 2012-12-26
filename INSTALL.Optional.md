@@ -17,7 +17,7 @@ For mesh simplification we user the GTS library: [http://gts.sourceforge.net/](h
     $ brew install glib
 
 ### Both:
-
+    
     $ wget http://downloads.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz
     $ tar xzf gts-0.7.6.tar.gz
     $ cd gts-0.7.6
@@ -25,7 +25,7 @@ For mesh simplification we user the GTS library: [http://gts.sourceforge.net/](h
     $ make
     $ sudo make install
     $ sudo ln -s $PWD/examples/coarsen /usr/local/bin/coarsen
-
+    $ sudo apt-get install libgts-bin
 ### Verify
 
 You can verify the installation by coarsening a mesh:
