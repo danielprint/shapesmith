@@ -26,6 +26,8 @@ For mesh simplification we user the GTS library: [http://gts.sourceforge.net/](h
     $ sudo make install
     $ sudo ln -s $PWD/examples/coarsen /usr/local/bin/coarsen
     $ sudo apt-get install libgts-bin
+    
+    http://pkgs.org/ubuntu-12.10/ubuntu-universe-amd64/libgts-bin_0.7.6+darcs110121-1.1build1_amd64.deb.html
 ### Verify
 
 You can verify the installation by coarsening a mesh:
